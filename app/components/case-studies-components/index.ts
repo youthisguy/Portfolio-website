@@ -1,7 +1,6 @@
 import SimilarCaseStudies from "./SimilarCaseStudies";
 import CaseStudiesTitleText from "./CaseStudiesTitleText";
 import CaseStudyCard from "./CaseStudyCard";
-import CaseStudyChallengesAndLearnings from "./CaseStudyChallengesAndLearnings";
 import CaseStudyHeader from "./CaseStudyHeader";
 import CaseStudyProblemStatement from "./CaseStudyProblemStatement";
 import CaseStudyTechStack from "./CaseStudyTechStack";
@@ -11,7 +10,6 @@ export {
   CaseStudiesTitleText,
   SimilarCaseStudies,
   CaseStudyCard,
-  CaseStudyChallengesAndLearnings,
   CaseStudyHeader,
   CaseStudyProblemStatement,
   CaseStudyTechStack,

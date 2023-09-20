@@ -22,12 +22,12 @@ const MyServices = () => {
               What
             </p>
             <UnderlinedText
-              text="service"
+              text="services"
               additionalStyles="flex ml-2 md:ml-3 lg:mx-3"
             />
           </div>
           <p className="self-center text-[2.25rem] font-bold text-black200 dark:text-white900 md:text-[3rem]">
-            do I provide
+            do I provide?
           </p>
         </motion.div>
         <div className="mt-8 flex flex-col items-center gap-8 md:grid md:max-w-3xl md:grid-cols-2 xl:flex xl:max-w-7xl xl:flex-row">

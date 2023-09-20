@@ -117,6 +117,7 @@ const CaseStudyHeader = ({ mainProject }: CaseStudyHeaderProps) => {
             </Button>
           </Link>
         </motion.div>
+        
         <motion.div whileHover={{ scale: 1.1 }}>
           <Link href="/" className="flex">
             <Button>

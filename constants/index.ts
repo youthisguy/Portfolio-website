@@ -181,20 +181,20 @@ export const mySkillsArray = [
 
 export const servicesProvided = [
   {
-    imageSrc: analyticsIcon,
-    imageHoverLight: analyticsIconPrimaryLight,
-    imageHoverDark: analyticsIconPrimaryDark,
-    title: "Analytics & SEO",
-    description:
-      "Implement tracking & analytics tools to monitor website performance & improve SEO",
-  },
-  {
     imageSrc: frontEndIcon,
     imageHoverLight: frontEndIconPrimaryLight,
     imageHoverDark: frontEndIconPrimaryDark,
     title: "Front-End Dev",
     description:
       "Creation of user interfaces and user experiences for websites and web applications.",
+  },
+  {
+    imageSrc: analyticsIcon,
+    imageHoverLight: analyticsIconPrimaryLight,
+    imageHoverDark: analyticsIconPrimaryDark,
+    title: "Analytics & SEO",
+    description:
+      "Implement tracking & analytics tools to monitor website performance & improve SEO",
   },
   {
     imageSrc: backEndIcon,
@@ -259,9 +259,9 @@ export const workExperience = [
 
 export const featuredProjectsList = [
   {
-    caseStudyLink: "morent",
-    title: "Morent",
-    description: "A Car Rental Application",
+    caseStudyLink: "Kitches Cafe",
+    title: "Kitches Cafe",
+    description: "A Restaurant Website",
     myRole: "Software Engineer",
     startDate: new Date(2023, 9, 8),
     endDate: new Date(2023, 10, 3),
@@ -297,7 +297,7 @@ export const featuredProjectsList = [
       "Acquired proficiency in NextJS and implemented various features utilizing industry-standard best practices.",
     ],
     figmaBannerImage: morentFigmaBannerImage,
-    techList: ["ReactJS", "Next.js", "Nodejs", "MongoDB"],
+    techList: ["ReactJS", "Next.js", "Nodejs", "MongoDB",],
     desktopImage: morentDesktopView,
     mobileImage: morentMobileView,
     backgroundColour: "#416CEA",
@@ -305,8 +305,8 @@ export const featuredProjectsList = [
   },
   {
     caseStudyLink: "jobit",
-    title: "JobIT",
-    description: "A Job Finding Application",
+    title: "Immersive",
+    description: "A Metaverse Application",
     myRole: "Software Engineer",
     startDate: new Date(2023, 8, 10),
     endDate: new Date(2023, 9, 6),
@@ -346,9 +346,9 @@ export const featuredProjectsList = [
     reverseLayout: true,
   },
   {
-    caseStudyLink: "hipnode",
-    title: "Hipnode",
-    description: "A Social Media Application",
+    caseStudyLink: "Carhub",
+    title: "Carhub",
+    description: "A Car Rental Application",
     myRole: "Software Engineer",
     startDate: new Date(2023, 8, 10),
     endDate: new Date(2023, 9, 6),

@@ -1,8 +1,8 @@
-export { default as hipnodeMobileView } from "./hipnode-mobile-view.png";
-export { default as hipnodeDesktopView } from "./hipnode-picture.png";
+export { default as hipnodeMobileView } from "./carhub-mobile-view.png";
+export { default as hipnodeDesktopView } from "./carhub-desktop-view.png";
 export { default as iphoneTemplate } from "./iphone-template.png";
-export { default as jobItMobileView } from "./jobit-mobile-view.png";
-export { default as jobItDesktopView } from "./jobit-picture.png";
+export { default as jobItMobileView } from "./immersive-mobile-view.png";
+export { default as jobItDesktopView } from "./immersive-desktop-view.png";
 export { default as laptopTemplate } from "./laptop-template.png";
-export { default as morentMobileView } from "./morent-mobile-view.png";
-export { default as morentDesktopView } from "./morent-picture.png";
+export { default as morentMobileView } from "./kitches-mobile-view.jpeg";
+export { default as morentDesktopView } from "./kitches-desktop-view.png";
