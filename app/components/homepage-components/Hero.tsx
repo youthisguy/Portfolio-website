@@ -49,12 +49,14 @@ const Hero = () => {
         </p>
         <div className="mt-9 flex flex-col md:flex-row md:gap-4">
           <Link href="/case-studies">
-            <Button
-              style="blueButton"
-              additionalStyles="w-full py-3.5 text-sm md:w-[15rem] md:py-5 md:text-lg"
-            >
-              My Work
-            </Button>
+            <motion.div whileHover={{ scale: 1.05 }}>
+              <Button
+                style="blueButton"
+                additionalStyles="w-full py-3.5 text-sm md:w-[15rem] md:py-5 md:text-lg"
+              >
+                My Work
+              </Button>
+            </motion.div>
           </Link>
           <Button
             style="custom"
@@ -65,7 +67,7 @@ const Hero = () => {
             <Image
               src={frame}
               alt="click to download resume"
-              className="h-4 w-4 md:h-5 md:w-5"
+              className="h-5 w-5 md:h-5 md:w-5"
               onClick={copyToClipboard}
             />
           </Button>

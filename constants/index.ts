@@ -40,24 +40,6 @@ import {
   analyticsIconPrimaryDark,
 } from "@/public/svg-icons";
 
-import {
-  digitalOceanLogo,
-  digitalOceanLogoDark,
-  digitalOceanLogoPrimaryLight,
-  digitalOceanLogoPrimaryDark,
-  fireboxLogo,
-  fireboxLogoDark,
-  fireboxLogoPrimaryLight,
-  fireboxLogoPrimaryDark,
-  mailchimpLogo,
-  mailchimpLogoDark,
-  mailchimpLogoPrimaryLight,
-  mailchimpLogoPrimaryDark,
-  slackLogo,
-  slackLogoDark,
-  slackLogoPrimaryLight,
-  slackLogoPrimaryDark,
-} from "@/public/svg-icons/work-experience-icons";
 
 import {
   hipnodeMobileView,
@@ -69,9 +51,6 @@ import {
 } from "@/public/png-icons/featured-projects-images";
 
 import {
-  adrianPic,
-  christopherPic,
-  santiagoPic,
   morentFigmaBannerImage,
   jobItFigmaBannerImage,
   hipnodeFigmaBannerImage,
@@ -80,13 +59,6 @@ import {
   morentProblemImage,
 } from "@/public/png-icons";
 
-import {
-  definition,
-  deploy,
-  design,
-  dev,
-  plan,
-} from "@/public/svg-icons/case-study-icons";
 
 const cssTechStack = { image: css, text: "CSS" };
 const gitTechStack = { image: git, text: "Git" };
@@ -99,13 +71,6 @@ const reactTechStack = { image: react, text: "React" };
 const tailwindTechStack = { image: tailwind, text: "TailwindCSS" };
 const typescriptTechStack = { image: typescript, text: "TypeScript" };
 
-export const workProcessSymbols = [
-  { title: "Definition", image: definition },
-  { title: "Design", image: design },
-  { title: "Planning", image: plan },
-  { title: "Development", image: dev },
-  { title: "Deployment", image: deploy },
-];
 
 export const socialMediaIcons = [
   {
@@ -214,52 +179,13 @@ export const servicesProvided = [
   },
 ];
 
-export const workExperience = [
-  {
-    title: "Slack",
-    position: "Product Design",
-    duration: 4,
-    durationUnit: "Year",
-    image: slackLogo,
-    imageDark: slackLogoDark,
-    imagePrimaryLight: slackLogoPrimaryLight,
-    imagePrimaryDark: slackLogoPrimaryDark,
-  },
-  {
-    title: "Firefox",
-    position: "Sr. UI Design",
-    duration: 4,
-    durationUnit: "Year",
-    image: fireboxLogo,
-    imageDark: fireboxLogoDark,
-    imagePrimaryLight: fireboxLogoPrimaryLight,
-    imagePrimaryDark: fireboxLogoPrimaryDark,
-  },
-  {
-    title: "Digital Ocean",
-    position: "UI & Motion Designer",
-    duration: 4,
-    durationUnit: "Year",
-    image: digitalOceanLogo,
-    imageDark: digitalOceanLogoDark,
-    imagePrimaryLight: digitalOceanLogoPrimaryLight,
-    imagePrimaryDark: digitalOceanLogoPrimaryDark,
-  },
-  {
-    title: "Mailchimp",
-    position: "UI Designer",
-    duration: 4,
-    durationUnit: "Year",
-    image: mailchimpLogo,
-    imageDark: mailchimpLogoDark,
-    imagePrimaryLight: mailchimpLogoPrimaryLight,
-    imagePrimaryDark: mailchimpLogoPrimaryDark,
-  },
-];
+
 
 export const featuredProjectsList = [
   {
-    caseStudyLink: "Kitches Cafe",
+    caseStudyLink: "Kitches",
+    github: "https://github.com/youthisguy/kitchiescafe",
+    liveSite: "http://https://kitchiescafe.netlify.app",
     title: "Kitches Cafe",
     description: "A Restaurant Website",
     myRole: "Software Engineer",
@@ -277,39 +203,22 @@ export const featuredProjectsList = [
       tailwindTechStack,
       typescriptTechStack,
     ],
-    caseStudyDescription: [
-      "Morent, a cutting-edge car rental application that was developed using the MERN stack. The app boasts a dynamic homepage that showcases featured vehicles, along with convenient pickup & drop-off location options & a comprehensive list of available cars.",
-      "My team and I also developed the car listing page which offers a search bar and various filtering options for users to find the perfect vehicle. Additionally, it has a car details page which provides users with detailed information along with suggestions for other recommended vehicles.",
-      "Car owners are also able to list their cars for rent through our Add Car page, while users can easily track their rented and rented-out cars through their profile page. Overall, we have created an intuitive and user-friendly MVP version of the platform that will make renting a car a breeze.",
-    ],
-    problemStatement:
-      "One of the main problems that people face when looking to rent a car is the hassle of finding a reliable and user-friendly platform to search for and book rental cars. In addition, car owners who want to rent out their vehicles often struggle to find a suitable platform to list their cars and manage their rentals.",
-    problemStatementImage: morentProblemImage,
-    challenges: [
-      "Gained extensive knowledge of full authentication and authorization implementation, including the use of industry-standard security protocols such as JSON Web Tokens.",
-      "We conducted brainstorming and carefully weighed our options before making a decision. Furthermore, using NextJS was a new experience for us, and we encountered difficulties while implementing its features. Finally, we had to work under time constraints, which added pressure to the project.",
-      "However, we collaborated effectively to overcome these obstacles and ultimately delivered a high-quality product within the given timeline.",
-    ],
-    learnings: [
-      "Gained extensive knowledge of full authentication and authorization implementation, including the use of industry-standard security protocols such as JSON Web Tokens.",
-      "Sharpened my backend skills, specifically in optimizing database queries, improving performance, and handling server-side logic.",
-      "Learned how to properly handle files, including file upload, storage, and retrieval, ensuring that the app&apos;s data is organized & easily accessible while keeping it secure.",
-      "Acquired proficiency in NextJS and implemented various features utilizing industry-standard best practices.",
-    ],
     figmaBannerImage: morentFigmaBannerImage,
-    techList: ["ReactJS", "Next.js", "Nodejs", "MongoDB",],
+    techList: ["ReactJS", "Next.js", "Nodejs", "Tailwind",],
     desktopImage: morentDesktopView,
     mobileImage: morentMobileView,
     backgroundColour: "#416CEA",
     reverseLayout: false,
   },
   {
-    caseStudyLink: "jobit",
+    caseStudyLink: "immersive",
+    github: "https://github.com/youthisguy/Immersive-nextjs-website",
+    liveSite: "https://immersive-metaverse.netlify.app/",
     title: "Immersive",
     description: "A Metaverse Application",
     myRole: "Software Engineer",
-    startDate: new Date(2023, 8, 10),
-    endDate: new Date(2023, 9, 6),
+    startDate: new Date(2023, 6, 17),
+    endDate: new Date(2023, 7, 6),
     techStackCaseStudy: [
       cssTechStack,
       gitTechStack,
@@ -319,27 +228,8 @@ export const featuredProjectsList = [
       reactTechStack,
       tailwindTechStack,
     ],
-    caseStudyDescription: [
-      "JobIt, a state-of-the-art job portal crafted with NextJS. The site features a dynamic homepage, presenting jobs localized to the user's area, complete with comprehensive job details and a straightforward application link. The platform's design emphasizes both beauty and responsiveness, ensuring a seamless experience across devices.",
-      "My dedicated team and I meticulously developed a search page, facilitating users to effortlessly navigate, search, and filter through a myriad of job listings tailored to their specifications. We didn't stop there; JobIt also boasts an estimated salaries page, equipped with a detailed chart illustrating the minimum, average, and maximum salaries for any chosen profession.",
-      "All in all, we've achieved a compelling MVP version of JobIt, setting a new standard for job-seeking platforms with its intuitive features and elegant interface.",
-    ],
-    problemStatement:
-      "One of the primary challenges job seekers encounter is navigating through myriad online job platforms to find genuine and relevant job listings. Additionally, the scattered nature of online job postings can make it difficult to compare and gauge the reliability of different opportunities. JobIt addresses these issues by consolidating job information from various sites, ensuring users receive the most dependable and comprehensive data in their search.",
-    problemStatementImage: jobItProblemImage,
-    challenges: [
-      "Gained experience in using jSearch job API to filter find jobs searched by user. Finding a way to use the response data effectively despite inconsistencies in the quality of the respnses",
-      "Working together as a team for the first time and coordinating our tasks and time management to work effectively and finish on time whilst delivering a high quality product",
-      "Working with new technoligies and packages and embracing the learning curve that comes with that",
-    ],
-    learnings: [
-      "Gained much knowledge and experience with tailwindCSS as well as jQuery and apexCharts.",
-      "Sharpened by front-end skills and taking the role in being the lead UI designer for this project, creating a responsive and user friendly user experience",
-      "Learned but to work effectively even with subpar responses from the API",
-      "Acquired experience with nextJS and improved my all rounded coding skills",
-    ],
     figmaBannerImage: jobItFigmaBannerImage,
-    techList: ["ReactJS", "Next.js", "Nodejs", "MongoDB"],
+    techList: ["ReactJS", "Next.js", "Nodejs", "Tailwindcss"],
     desktopImage: jobItDesktopView,
     mobileImage: jobItMobileView,
     backgroundColour: "#0BAB7C",
@@ -347,11 +237,13 @@ export const featuredProjectsList = [
   },
   {
     caseStudyLink: "Carhub",
+    github: "https://github.com/youthisguy/Nextjs_car_showcase",
+    liveSite: "https://carshow-case.vercel.app/",
     title: "Carhub",
     description: "A Car Rental Application",
     myRole: "Software Engineer",
-    startDate: new Date(2023, 8, 10),
-    endDate: new Date(2023, 9, 6),
+    startDate: new Date(2023, 7, 10),
+    endDate: new Date(2023, 7, 29),
     techStackCaseStudy: [
       cssTechStack,
       gitTechStack,
@@ -360,24 +252,6 @@ export const featuredProjectsList = [
       nextTechStack,
       reactTechStack,
       tailwindTechStack,
-    ],
-    caseStudyDescription: [
-      "HipNode, the next-generation social media platform, seamlessly integrates various content avenues, all under one digital roof. Developed with cutting-edge technology, HipNode offers its community a dynamic environment to share articles, dive into podcasts, groove to the latest music tracks, and express themselves through interactive posts. Its design exudes modernity while ensuring a user-centric experience across all devices.",
-      "My team and I poured our creativity and expertise into crafting features that redefine online social experiences. Beyond the standard posting capabilities, HipNode stands out with its live chat functionality, enabling real-time conversations and fostering a tighter-knit community.",
-      "From avid readers to music enthusiasts, from podcast listeners to everyday socializers, HipNode caters to all. We've envisioned and brought to life a holistic platform that not only connects users but also celebrates diverse forms of digital expression.",
-    ],
-    problemStatement:
-      "One of the prevalent issues for digital enthusiasts today is juggling multiple platforms to consume various forms of media, from pictures and posts to music and podcasts. This fragmented experience can be overwhelming and inefficient. HipNode addresses this challenge by offering an all-in-one social media platform where users can seamlessly engage with a diverse range of content, ensuring a consolidated and enriching digital interaction.",
-    problemStatementImage: hipnodeProblemImage,
-    challenges: [
-      "Venturing into the use of Supabase for the first time, which presented its own set of intricacies and demanded a steep learning curve for successful implementation.",
-      "Managing the magnitude of a significantly larger project that spanned across three months, necessitating rigorous team coordination, constant communication, and strategic planning to ensure timely and efficient delivery.",
-      "Integrating a myriad of new technologies into the project, each bringing unique challenges and requiring rapid adaptation to harness their full potential effectively.",
-    ],
-    learnings: [
-      "Acquired in-depth knowledge and experience in conceptualizing and executing large-scale full-stack projects, understanding the nuances and intricacies involved.",
-      "Elevated my collaborative skills, working cohesively as a team member and ensuring the delivery of a high-quality product that met our collective vision.",
-      "Challenged my boundaries, diving deep into new technologies and adopting advanced coding practices that further honed my technical proficiency.",
     ],
     figmaBannerImage: hipnodeFigmaBannerImage,
     techList: ["ReactJS", "Next.js", "Nodejs", "MongoDB"],

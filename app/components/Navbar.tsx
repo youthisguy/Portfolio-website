@@ -61,7 +61,11 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed z-50 flex h-16 w-full items-center justify-between bg-white800 px-6 dark:bg-black300 md:h-24 md:px-20">
+      <nav
+        className={`fixed z-50 flex h-16 w-full items-center justify-between bg-white800 px-6 dark:bg-black300 md:h-24 md:px-20 ${
+          pathname.startsWith("/studio") && "hidden"
+        }`}
+      >
         <div className="initial_background flex h-7 w-7 items-center justify-center rounded-full md:h-9 md:w-9">
           <p className="font-semibold text-white900 md:text-xl">S</p>
         </div>
@@ -95,7 +99,7 @@ const Navbar = () => {
               src={icons.downloadIcon}
               height={20}
               width={20}
-              alt="download resume"
+              alt="download"
             />
             <p className="text-sm text-black200 dark:text-white900">Resume</p>
           </Link>

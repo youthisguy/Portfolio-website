@@ -109,7 +109,7 @@ const CaseStudyHeader = ({ mainProject }: CaseStudyHeaderProps) => {
         className="mb-12 mt-6 flex justify-between gap-10 md:mb-16 md:mt-[4.5rem] md:gap-24"
       >
         <motion.div whileHover={{ scale: 1.1 }}>
-          <Link href="/" className="flex">
+          <Link href={mainProject?.liveSite} className="flex">
             <Button>
               <Image src={icons.demoButtonIcon} alt="Demo Icon" />
               <p>Demo Site</p>
@@ -119,7 +119,7 @@ const CaseStudyHeader = ({ mainProject }: CaseStudyHeaderProps) => {
         </motion.div>
         
         <motion.div whileHover={{ scale: 1.1 }}>
-          <Link href="/" className="flex">
+          <Link href={mainProject?.github} className="flex">
             <Button>
               <Image src={icons.githubButtonIcon} alt="Github logo" />
               <p>Source Code</p>
