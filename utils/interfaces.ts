@@ -28,6 +28,8 @@ export interface Project {
   mobileImage: StaticImageData;
   backgroundColour: string;
   reverseLayout: boolean;
+  github: any;
+  liveSite: any;
 }
 
 export interface FeaturedProjectCardProps {
