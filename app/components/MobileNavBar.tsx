@@ -70,7 +70,7 @@ const MobileNavBar = ({
           <p>{button.label}</p>
         </Link>
       ))}
-      <Link href="/" className="flex w-full cursor-pointer rounded px-2 py-4">
+      <Link href="https://drive.google.com/file/d/1YFgqZtRBjcNSWGShuwdtuqkW4BwlwQwD/view?usp=sharing" className="flex w-full cursor-pointer rounded px-2 py-4">
         <Image
           src={theme === "light" ? download : downloadDarkMode}
           height={20}

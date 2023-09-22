@@ -18,6 +18,7 @@ import MobileNavBar from "./MobileNavBar";
 import { navbarButtons } from "@/constants";
 
 const Navbar = () => {
+
   const { systemTheme, theme, setTheme } = useTheme();
   const currentTheme = theme === "system" ? systemTheme : theme;
   const [showMobileNav, setShowMobileNav] = useState<boolean>(false);
@@ -94,7 +95,7 @@ const Navbar = () => {
             </Link>
           ))}
           {/* Temporary href below so that the link works */}
-          <Link href="/" className="flex">
+          <Link href="https://drive.google.com/file/d/1YFgqZtRBjcNSWGShuwdtuqkW4BwlwQwD/view?usp=sharing" className="flex" >
             <Image
               src={icons.downloadIcon}
               height={20}

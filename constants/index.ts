@@ -50,15 +50,6 @@ import {
   morentDesktopView,
 } from "@/public/png-icons/featured-projects-images";
 
-import {
-  morentFigmaBannerImage,
-  jobItFigmaBannerImage,
-  hipnodeFigmaBannerImage,
-  hipnodeProblemImage,
-  jobItProblemImage,
-  morentProblemImage,
-} from "@/public/png-icons";
-
 
 const cssTechStack = { image: css, text: "CSS" };
 const gitTechStack = { image: git, text: "Git" };
@@ -185,7 +176,7 @@ export const featuredProjectsList = [
   {
     caseStudyLink: "Kitches",
     github: "https://github.com/youthisguy/kitchiescafe",
-    liveSite: "http://https://kitchiescafe.netlify.app",
+    liveSite: "https://kitchiescafe.netlify.app",
     title: "Kitches Cafe",
     description: "A Restaurant Website",
     myRole: "Software Engineer",
@@ -203,7 +194,7 @@ export const featuredProjectsList = [
       tailwindTechStack,
       typescriptTechStack,
     ],
-    figmaBannerImage: morentFigmaBannerImage,
+
     techList: ["ReactJS", "Next.js", "Nodejs", "Tailwind",],
     desktopImage: morentDesktopView,
     mobileImage: morentMobileView,
@@ -228,7 +219,7 @@ export const featuredProjectsList = [
       reactTechStack,
       tailwindTechStack,
     ],
-    figmaBannerImage: jobItFigmaBannerImage,
+   
     techList: ["ReactJS", "Next.js", "Nodejs", "Tailwindcss"],
     desktopImage: jobItDesktopView,
     mobileImage: jobItMobileView,
@@ -253,7 +244,7 @@ export const featuredProjectsList = [
       reactTechStack,
       tailwindTechStack,
     ],
-    figmaBannerImage: hipnodeFigmaBannerImage,
+  
     techList: ["ReactJS", "Next.js", "Nodejs", "MongoDB"],
     desktopImage: hipnodeDesktopView,
     mobileImage: hipnodeMobileView,
