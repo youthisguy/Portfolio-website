@@ -1,11 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: ["class"],
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  mode: "jit",
   theme: {
     extend: {
       boxShadow: {
@@ -32,7 +32,7 @@ module.exports = {
         graphicOffWhite2: "#E5F1FF",
         graphicTurquoise: "#1AE5FF",
         graphicLighterBlue: "#A9CCEA",
-        graphicPaleBlue: "#6ca8db",
+        graphicPaleBlue: "#289DF2",
         graphicLightBlue: "#2889DB",
         graphicMidBlue: "#287DD1",
         graphicDarkBlue: "#284D89",

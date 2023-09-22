@@ -5,8 +5,16 @@ import { motion } from "framer-motion";
 import ServicesCard from "./ServicesCard";
 import { servicesProvided } from "@/constants";
 import UnderlinedText from "../UnderlinedText";
+import { useTheme } from "next-themes";
+import { useState, useEffect } from "react";
 
 const MyServices = () => {
+  const { systemTheme, theme, setTheme } = useTheme();
+  const currentTheme = theme === "system" ? systemTheme : theme;
+
+  useEffect(() => {
+    
+  }, [theme]);
   return (
     <section className="flex w-full flex-col items-center justify-center bg-white900 p-6 py-12 dark:bg-black300 md:bg-white800 xl:px-20 xl:py-[4.5rem]">
       <div className="flex w-full max-w-7xl flex-col items-center">
