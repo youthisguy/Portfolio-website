@@ -6,7 +6,7 @@ const HeroUnderlinedText = () => {
     <>
       <div className="relative flex flex-col">
         <UnderlinedText
-          text="Frontend"
+          text="Full-stack"
           header
           additionalStyles="flex mt-2 mb-1.5 md:mt-6 md:mb-5"
         />
